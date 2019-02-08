@@ -1,0 +1,15 @@
+<div class="artistsearch">
+  <div class="card search">
+    <h1>List of names</h1>
+    <label>you searched  for: <span *ngIf="query"  [ngStyle]="{'color': proportion === '100' ? 'green' : 'red'}"> {{query}} </span></label>
+    <input [(ngModel)]="query" placeholder="search....." [ngStyle]="{'color': proportion === '100' ? 'green' : 'blue'}">
+  </div>
+</div>
+
+<ul *ngIf="query" class="artistlist cf">
+  <li (click)="showArtist(item); query='';" class="artist cf" *ngFor="#item of (artists) | find:query">
+    <artist-item class="content" [artist]=item></artist-item>
+  </li>
+</ul>
+
+<artist-details *ngIf="currentArtist" [artist]="currentArtist"></artist-details>
