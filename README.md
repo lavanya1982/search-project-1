@@ -3,6 +3,7 @@ search project 1
 
 
 Make sure you have these installed::
+
 node.js
 git
 gulp
