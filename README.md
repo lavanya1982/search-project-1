@@ -3,9 +3,11 @@ search project 1
 
 
 Make sure you have these installed
+
 node.js
 git
 gulp
+
 Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) > git clone https://github.com/lavanya1982/search-project-1
 CD to the folder cd search-project-1
 Run > npm install to install the project dependencies
