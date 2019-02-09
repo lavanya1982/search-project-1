@@ -2,10 +2,8 @@
 search project 1
 
 
-Make sure you have these installed
-
+Make sure you have these installed::
 node.js
-
 git
 gulp
 Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) > git clone https://github.com/lavanya1982/search-project-1
