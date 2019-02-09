@@ -2,11 +2,11 @@
 search project 1
 
 
-Make sure you have these installed::
+* Make sure you have these installed::
 
 1.node.js
 
-2.git
+2.git 
 
 3.gulp
 
