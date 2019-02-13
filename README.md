@@ -43,12 +43,10 @@ What it does:
 _____________________________________________________________________________________________________________________________
 Sno.	          Scenario	                                           Expected Result
 _____________________________________________________________________________________________________________________________
-1.	User taps on Search bar	                                The cursor should be visible on the search box
-2.	User types any character and                                The matching data should get filtered
-       taps on search	
-3.     User types any character  and taps on search                Search should be on the basis of the matching sequence and 
-                                                                   not the  initial characters. 
-                                                                   It should be like search
+1.     User taps on Search bar	                                The cursor should be visible on the screen 
+2.     User types any character and taps on search                 The matching data should get filtered (Refer to Image 2)
+3.     User types any character  and taps on search	           Search should be on the basis of the matching sequence and 
+                                                                    not the  initial  characters. It should be like search
                                                                    
 4.     User types any character in any of the ways                 Search should not be case sensitive
        eg. ‘lavanya’ or ‘Lavanya’ or ‘LAVANYA’ and 
