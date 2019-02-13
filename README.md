@@ -21,3 +21,20 @@ Install gulp.js via the Mac terminal or Gitbash on a PC > npm install -g gulp
 Run the Gulp command > gulp
 
 Fire up your browser at http://localhost:8000
+
+
+Running unit tests:
+
+Run "ng test" to execute the unit tests via Karma.
+
+Here is one way of test case.
+
+What it does:
+
+1.Creates the component
+
+2.Loads the list of names from mongoDB or from JSON
+
+3.Finds the name based on search query
+
+4. Displays the name with the letter whatever you searched. (Makes sure that the letter or name should exists in your list)
