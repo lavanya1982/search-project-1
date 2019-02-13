@@ -44,7 +44,7 @@ ________________________________________________________________________________
 Sno.	          Scenario	                                           Expected Result
 _____________________________________________________________________________________________________________________________
 1.     User taps on Search bar	                                The cursor should be visible on the screen 
-2.     User types any character and taps on search                 The matching data should get filtered (Refer to Image 2)
+2.     User types any character and taps on search               The matching data should get filtered (Refer to Image 2)
 3.     User types any character  and taps on search	           Search should be on the basis of the matching sequence and 
                                                                     not the  initial  characters. It should be like search
                                                                    
@@ -56,9 +56,13 @@ ________________________________________________________________________________
                                                                    ‘No data found’  
                                                    
 6.     User searches data offline                                  Enabled
+
 7.     If user searches with blank field                           No change should occur on the screen
+
 8.     User clears the search field after  to page again           The filter should get reset
+
 9.     Verify response time of search                              The search results should be quick
+
 10.    Click on one item                                           Should navigate to BioData page
 
 
