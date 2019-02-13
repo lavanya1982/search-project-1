@@ -43,15 +43,20 @@ What it does:
 _____________________________________________________________________________________________________________________________
 Sno.	          Scenario	                                           Expected Result
 _____________________________________________________________________________________________________________________________
-1.	   User taps on Search bar	                                   The cursor should be visible on the search box
-2.	   User types any character and                                The matching data should get filtered
+1.	User taps on Search bar	                                The cursor should be visible on the search box
+2.	User types any character and                                The matching data should get filtered
        taps on search	
 3.     User types any character  and taps on search                Search should be on the basis of the matching sequence and 
-                                                                   not the  initial characters. It should be like search
+                                                                   not the  initial characters. 
+                                                                   It should be like search
+                                                                   
 4.     User types any character in any of the ways                 Search should not be case sensitive
-       eg. ‘lavanya’ or ‘Lavanya’ or ‘LAVANYA’ and taps on search   
+       eg. ‘lavanya’ or ‘Lavanya’ or ‘LAVANYA’ and 
+       taps on search   
 
-5.     User types any character and no matching data is listed     User should be notified about it .message to be shown  as ‘No data                                                                      found’  
+5.     User types any character and no matching data               User should be notified about it .message to be shown  as 
+                                                                   ‘No data found’  
+                                                   
 6.     User searches data offline                                  Enabled
 7.     If user searches with blank field                           No change should occur on the screen
 8.     User clears the search field after  to page again           The filter should get reset
